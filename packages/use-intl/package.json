@@ -1,5 +1,5 @@
 {
-  "name": "alexd-use-intl",
+  "name": "use-intl",
   "sideEffects": false,
   "author": "Jan Amann <jan@amann.work>",
   "description": "Minimal, but complete solution for managing internationalization in React apps.",

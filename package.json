@@ -5,9 +5,9 @@
     "build": "turbo run build",
     "test": "turbo run test --concurrency 1",
     "lint": "turbo run lint",
-    "prepare": "turbo run build --filter './packages/**'",
+    "prepare": "turbo run build --filter './packages/next-intl'",
     "size": "turbo run size",
-    "publish": "lerna publish --yes --no-private"
+    "publish": "lerna publish --scope alexd-next-intl --yes --no-private"
   },
   "devDependencies": {
     "lerna": "^6.6.2",
