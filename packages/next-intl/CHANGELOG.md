@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.19.0](https://github.com/amannn/next-intl/compare/v2.18.0...v2.19.0) (2023-07-12)
+
+
+### Features
+
+* get old code as fallback ([ef0d37b](https://github.com/amannn/next-intl/commit/ef0d37b652e08a9d944979b9383dcfcf46b28559))
+
+
+
+
+
 # [2.18.0](https://github.com/amannn/next-intl/compare/v2.17.3...v2.18.0) (2023-07-12)
 
 
