@@ -3,6 +3,44 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.18.0](https://github.com/amannn/next-intl/compare/v2.17.3...v2.18.0) (2023-07-12)
+
+
+### Bug Fixes
+
+* Fix type signature of the plugin and improve condition for printing a warning in case a legacy i18n config is in use ([#241](https://github.com/amannn/next-intl/issues/241)) ([de5115c](https://github.com/amannn/next-intl/commit/de5115c12abb2afd55fc3f3c46dc9bbcee446091))
+* Handle invalid `accept-language` header gracefully ([#192](https://github.com/amannn/next-intl/issues/192)) ([9b564f9](https://github.com/amannn/next-intl/commit/9b564f9a4722fca06eaa71df62a8a2f425c29db7))
+* **Next.js 13 RSC:** Improvements for routing APIs ([#277](https://github.com/amannn/next-intl/issues/277)) ([23f44e2](https://github.com/amannn/next-intl/commit/23f44e2840c3a4ac14bc32be27228920b4a98e93))
+
+
+### Features
+
+* Awaitables for Next.js 13 RSC integration ([#184](https://github.com/amannn/next-intl/issues/184)) ([44af8ab](https://github.com/amannn/next-intl/commit/44af8abf987623ce7104f71093e4ced3650341a1))
+* changed package name ([175e9e3](https://github.com/amannn/next-intl/commit/175e9e329f690824789b2aaf83490e45330d83f2))
+* changed package name ([7167cc9](https://github.com/amannn/next-intl/commit/7167cc9e3a6bf4a9e7c9897a5a1d351f5f48de4e))
+* get locale from x-invoke-path instead of header and middleware, only fit with our own needs ([226572c](https://github.com/amannn/next-intl/commit/226572c5cf548e35d8f2193177a7ef07a4f9e418))
+* Improve locale detection for prefixed routing ([#214](https://github.com/amannn/next-intl/issues/214)) ([3d7cc1d](https://github.com/amannn/next-intl/commit/3d7cc1deca6aa397b6e6e3baa3208a9c5283ef79))
+* Improvements for localized `Link` ([#257](https://github.com/amannn/next-intl/issues/257)) ([a08b91b](https://github.com/amannn/next-intl/commit/a08b91b52c8dd78b368003de4e99955aa66c2894))
+* New APIs for using `next-intl` outside of components ([#339](https://github.com/amannn/next-intl/issues/339)) ([0f3116b](https://github.com/amannn/next-intl/commit/0f3116b9e41cc2325afe9581269c16064269227e))
+* Next.js 13 RSC Domain middleware improvements ([#223](https://github.com/amannn/next-intl/issues/223)) ([36ae25d](https://github.com/amannn/next-intl/commit/36ae25df76468431c50d9bc18aa24f8127687d09))
+* Next.js 13 RSC middleware improvements ([#212](https://github.com/amannn/next-intl/issues/212)) ([cc6c9b8](https://github.com/amannn/next-intl/commit/cc6c9b844b0058b66b821f1aee5187276b2c0d69))
+* Next.js 13 RSC routing clean up & add `redirect` ([#187](https://github.com/amannn/next-intl/issues/187)) ([f8fefd2](https://github.com/amannn/next-intl/commit/f8fefd2174dbb226f7772977267cdd0b5d2ec193))
+* Return alternate language links as headers from middleware ([#195](https://github.com/amannn/next-intl/issues/195)) ([f55424a](https://github.com/amannn/next-intl/commit/f55424ac646e48009a1a214cf68aeaa5a64c780a))
+* RSC with static config ([#156](https://github.com/amannn/next-intl/issues/156)) ([d043943](https://github.com/amannn/next-intl/commit/d043943ab792c412d1b9c2f652ec6e60643fd3fb)), closes [#152](https://github.com/amannn/next-intl/issues/152) [#154](https://github.com/amannn/next-intl/issues/154)
+* **RSC:** Add support for `redirect` in Client Components ([4b61c06](https://github.com/amannn/next-intl/commit/4b61c06466b2e9a158a02e281c07f82e309a5deb))
+* Unprefixed routing for default locale & domain-based locale matching ([#186](https://github.com/amannn/next-intl/issues/186)) ([68ce7db](https://github.com/amannn/next-intl/commit/68ce7db79383900de2d46bb69dd5c175a6d0c7d1))
+
+
+### Reverts
+
+* Revert "chore(Next.js 13 RSC): Switch to tsup for bundling" ([e4b2275](https://github.com/amannn/next-intl/commit/e4b2275a8229cc5d70158f220d9804bdcda91526))
+* Revert "Remove `next-intl` unit tests as we're moving to e2e tests" ([b375b4f](https://github.com/amannn/next-intl/commit/b375b4f99fb23db89e62138a6e9ca469d2c2dff6))
+* Revert "Fix lint" ([1d385fe](https://github.com/amannn/next-intl/commit/1d385fefacce43ceaf0f920179bc7d51b7de833c))
+
+
+
+
+
 ## 2.17.5 (2023-07-07)
 
 

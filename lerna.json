@@ -1,11 +1,10 @@
 {
-  "version": "2.17.6",
+  "version": "2.18.0",
   "packages": [
     "packages/*"
   ],
   "useWorkspaces": true,
   "npmClient": "pnpm",
-
   "command": {
     "publish": {
       "conventionalCommits": true,
