@@ -1,13 +1,15 @@
 {
-  "version": "2.17.5",
+  "version": "2.17.6",
   "packages": [
     "packages/*"
   ],
   "useWorkspaces": true,
   "npmClient": "pnpm",
+
   "command": {
     "publish": {
-      "conventionalCommits": true
+      "conventionalCommits": true,
+      "git-checks": false
     }
   }
 }
