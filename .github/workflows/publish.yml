@@ -23,7 +23,7 @@ jobs:
           cache: 'pnpm'
       - run: pnpm install
       # Seems like after squash & merge the author is unknown to lerna
-      - run: git config --global user.email "alex@sencrop.com" && git config --global user.name "Alexandre DUHEM"
+      - run: git config --global user.email "alexandre.duhem@sencrop.com" && git config --global user.name "Alexandre DUHEM"
       - run: pnpm run publish
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
